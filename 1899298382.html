@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Śledzenie przesyłki</title>
+    <style>
+        body {
+            background-color: #b3c6e1; /* Jasnoniebieskie tło */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Dodaj cieniowanie */
+            text-align: center;
+        }
+        h1 {
+            color: #193366; /* Ciemnoniebieski kolor czcionki */
+        }
+        p {
+            color: #193366; /* Ciemnoniebieski kolor czcionki */
+        }
+        .status {
+            background-color: #b3c6e1; /* Jasnoniebieskie tło */
+            border: 2px solid #193366; /* Ciemnoniebieska obwódka */
+            padding: 10px;
+            margin: 10px;
+            color: #193366; /* Ciemnoniebieski kolor czcionki */
+            text-align: left;
+            border-radius: 8px; /* Zaokrąglenie rogów */
+        }
+        .icon {
+            color: #193366; /* Ciemnoniebieski kolor ikon */
+            font-size: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Śledzenie przesyłki</h1>
+        <div>
+            <p>Numer przesyłki: nie został jeszcze wygenerowany</p>
+            <p>Status: Przygotowywanie</p>
+        </div>
+        <div class="status">
+            <p>
+                <i class="icon">✔️</i> Przygotowywanie przesyłki
+                <br>
+                08.11.2023 14:12
+            </p>
+        </div>
+        <div class="status">
+            <p>
+                <i class="icon">✔️</i> Przekazanie do magazynu wysyłkowego
+                <br>
+                
+                08.11.2023 15:41
+            </p>
+        </div>
+              <div class="status">
+            <p>
+                <i class="icon">🚚</i> Przygotowywanie do nadania przez magazyn
+                <br>
+                <strong>Przewidywana wysyłka: 09-10.11.2023 do godziny 22:00</strong>
+                <br><br>
+                08.11.2023 17:49
+            </p>
+        </div>
+    </div>
+</body>
+</html>
